@@ -9,7 +9,7 @@ permissions:
   contents: read
 jobs:
   run-autograding-tests:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       SUMMARY_FILE: summary.md
       LOG_DIR: .github/workflow-logs
